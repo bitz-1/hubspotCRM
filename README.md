@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# 🚀 HubSpot CRM Integration with React & Node.js  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project integrates **HubSpot CRM** with a **React frontend** and a **Node.js/Express backend**, enabling secure retrieval and management of contact data. The backend acts as a proxy to avoid **CORS issues** and protect the **HubSpot API key**.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 **Features**  
+✅ Fetch contacts from **HubSpot CRM**  
+✅ Add new contacts to **HubSpot CRM**  
+✅ Secure API requests using **Node.js backend** (Fixes **CORS & security issues**)  
+✅ Displays **loading state** and **success/error messages**  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ **Tech Stack**  
+- **Frontend**: React, Axios  
+- **Backend**: Node.js, Express, Axios, dotenv, CORS  
+- **API**: HubSpot CRM  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 **Setup & Installation**  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **1️⃣ Clone the Repository**  
+1. Clone the repository and navigate into the project folder.  
+2. Install dependencies for both **backend** and **frontend**.  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **2️⃣ Set Up the Backend**  
+1. Navigate to the `backend/` folder.  
+2. Install required dependencies.  
+3. Create a `.env` file and store your **HubSpot API Key** securely.  
+4. Start the backend server.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **3️⃣ Set Up the React Frontend**  
+1. Navigate to the `frontend/` folder.  
+2. Install dependencies.  
+3. Run the frontend React app.  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎯 **Next Steps**  
+✅ **Deploy the backend** on **Render, Vercel, or AWS**  
+✅ **Deploy React app** on **Vercel or Netlify**  
+✅ **Add a Delete Contact feature**  
+✅ **Improve UI with Material-UI or Bootstrap**  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎉 **Congratulations!**  
+You have successfully integrated **HubSpot CRM** with a **secure React & Node.js app**. 🚀  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💬 **Need help?** Feel free to open an issue or ask questions! 😊
