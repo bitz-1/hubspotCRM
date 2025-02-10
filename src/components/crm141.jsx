@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const BACKEND_URL = 'http://localhost:5000/api/contacts'; // Connect to the backend
+const BACKEND_URL = 'http://localhost:5000/api/contacts'; 
 
 const CRMContacts = () => {
   const [contacts, setContacts] = useState([]);
